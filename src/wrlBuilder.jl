@@ -25,7 +25,7 @@ Shape {
 		write_point_lines(grid,file)
 		write(file,"\t\t\t]\n\t\t}\n\t\tcoordIndex [\n")
 		write_face_lines(grid,file)
-      write(file,"\t\t\t]\n\t\t}\n\t}\n}\n")
+      write(file,"\t\t\t]\n\t\t}\n\t}\n")
 	end
 end
 
