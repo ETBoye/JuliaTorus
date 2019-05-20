@@ -26,7 +26,8 @@ julia -O3 Main.jl
 in the src folder.
 
 By default, the program does three convex integrations and outputs
-3 .wrl files. These can be opened with the program paraview. 
+3 .wrl files. These can be opened with the free program paraview, or another renderer that can view .wrl. At default, the grid size is very low, but the first and second corrugations are in okay quality. To see what happens in the third quality, a higher grid resolution is necessary.
+
 Alternatively, one can set `save_xml = true` in `Main.jl`, to output 3 .xml files. One generates a raytraced a png by installing Yafaray-v3 running
 ```
 yafaray-xml -f png {your .xml file here}
