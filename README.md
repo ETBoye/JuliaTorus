@@ -15,7 +15,7 @@ Plots
 SpecialFunctions
 ```
 One installs these programs either manually, or by running
-InstallPackages.jl in the src folder. To do this, one writes in a terminal
+InstallPackages.jl in the src folder. To do this, one opens a terminal in the src folder and runs the command
 ```
 julia InstallPackages.jl
 ```
